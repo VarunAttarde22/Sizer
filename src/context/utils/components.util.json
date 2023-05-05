@@ -1,0 +1,90 @@
+[
+    {
+      "header": "Distribution",
+      "addons": [
+        {
+          "name": "Kubernates",
+          "icon": "./path",
+          "versions": ["0.21.4", "0.21.5", "0.21.6", "0.21.7"],
+          "isSelected": true,
+          "configuration": [
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "text"
+            },
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": false,
+              "type": "boolean"
+            },
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "number"
+            },
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Kubernates",
+          "icon": "./path",
+          "versions": ["0.21.4", "0.21.5", "0.21.6", "0.21.7"],
+          "isSelected": false,
+          "configuration": [
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "text"
+            },
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": false,
+              "type": "boolean"
+            },
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "text"
+            },
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "x509 Certificates",
+      "addons": [
+        {
+          "name": "Cert Manager",
+          "icon": "./path",
+          "versions": ["0.21.4", "0.21.5", "0.21.6", "0.21.7"],
+          "isSelected": false,
+          "configuration": [
+            {
+              "label": "serviceCIDR",
+              "toolTip": "ServideCIDR is a mandatory field",
+              "isSelected": true,
+              "type": "boolean"
+            }
+          ]
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,112 @@
+.Addons_Wrapper {
+  display: flex;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  .Addon_Span {
+    color: #7182a6;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    -moz-flex-direction: column;
+    flex-direction: column;
+  }
+  .Addon_Div {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 13px 15px;
+    margin-top: 15px;
+    display: -moz-flex;
+    display: flex;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    display: -moz-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    .Addon_Div_Div {
+      // display: block;
+      .Name {
+        display: flex;
+        flex-direction: column;
+        .Inner_Div {
+          font-weight: unset;
+        }
+        .Flex {
+          display: flex;
+          .Border_Radius {
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Is_Selected {
+  background: #f5f8fc !important;
+  border: 1px solid #9aacd1;
+}
+
+.Flex1 {
+  -moz-flex: 1;
+  flex: 1 1;
+  min-height: 0;
+}
+.Flex {
+  display: -moz-flex;
+  display: flex;
+  -moz-flex-direction: row;
+  flex-direction: row;
+}
+.Align_Items_center {
+  align-items: center;
+}
+.Justify_Content_FlexEnd {
+  justify-content: flex-end;
+}
+.Show_Config {
+  color: #326de6;
+  display: -moz-flex;
+  display: flex;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.Config_Form {
+  border-top: 1px solid #c4c7ca;
+  margin-top: 15px;
+  display: block;
+  .Config_Form_Wrapper {
+    margin-top: 15px;
+    position: relative;
+    .Config_Form_Div {
+      display: flex;
+      -moz-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+}
+
+.Form_Label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #323232;
+  grid-column-gap: 15px;
+}
+
+.Center_Div {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.Is_Pointer {
+  cursor: pointer;
+}

@@ -9,14 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@edf/core": "^0.0.1-9-SNAPSHOT",
+    "@lit-labs/react": "^1.1.1",
+    "@monaco-editor/react": "^4.5.0",
+    "@types/js-yaml": "^4.0.5",
     "@types/node": "18.16.0",
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",
+    "@typescript-eslint/parser": "^5.59.1",
+    "babel-loader": "^9.1.2",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "js-yaml": "^4.1.0",
     "next": "13.3.1",
+    "node-cmd": "^5.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "rxjs": "^7.8.1",
+    "sass": "1.26.3",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "eslint-plugin-eslint-comments": "^3.2.0"
   }
 }

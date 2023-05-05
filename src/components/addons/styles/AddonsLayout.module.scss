@@ -1,0 +1,19 @@
+.Addons_Wrapper {
+  display: flex;
+  position: relative;
+  .Addons_Label_wrapper{width: 65%; margin: 1rem}
+  .Editor_Wrapper{
+    width: 35%;
+    background: whitesmoke;
+    margin: 1rem;
+    position: sticky;
+    height: fit-content;
+    top: 56px
+  }
+}
+
+.Label {
+  color: #303030;
+  font-weight: 700;
+  font-size: 24px;
+}
