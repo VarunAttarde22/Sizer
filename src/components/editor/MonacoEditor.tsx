@@ -14,6 +14,7 @@ const MonacoEditor = ({ value, type }: any): JSX.Element => {
   return (
     <div>
       <Editor
+        key={type}
         height={`calc(100vh - 100px)`}
         defaultLanguage={type}
         value={

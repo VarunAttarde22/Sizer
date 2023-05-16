@@ -110,3 +110,61 @@
 .Is_Pointer {
   cursor: pointer;
 }
+
+.Grid_Template{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.5px;
+    margin: 5px;
+}
+.Make_Content_Center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    gap: inherit;
+    background: white;
+    padding: 5px;
+}
+
+.ProgressBarWrapper{
+  display: block;
+  box-sizing: inherit;
+  color: #000!important;
+  background-color: #f1f1f1!important;
+  border-radius: 16px;
+  width: 100%;
+  height: max-content;
+  border: solid 0.5px grey;
+  min-height: 5px;
+    .ProgressBarWrapperItem{
+    width: 25%;
+    display: block;
+    color: #fff!important;
+    background-color: #0076ce!important;
+    box-sizing: inherit;
+    border-radius: 16px;
+    min-height: 5px;
+    .Label{
+      padding: 1px 16px 1px;
+      font-size: smaller;
+      margin-left: 5px;
+    }
+  }
+}
+.FontStyleItalic{
+  font-style: italic;
+}
+.Line_Item_Wrapper{
+  display: flex;flex-direction: column;gap: 5px;width: 100%;
+  .Label{
+    font-size: small;font-weight: bold;align-self: center;
+  }
+  .Utilization_Wrapper{
+    font-size: small;display: flex;align-self:center;width:100%;align-items: center;
+    .Min_Max_Value{
+      margin-left: 5px;
+    }
+  }
+}

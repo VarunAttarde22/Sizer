@@ -1,0 +1,26 @@
+.Header_HeaderWrapper {
+  display: block;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  .Header_Container {
+    background-color: #0076ce;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 24px;
+    .Header_Container_Branding_Area {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .Header_Container_Title_Name {
+        color: #fff;
+        font-weight: 300;
+        font-size: 18px;
+      }
+    }
+  }
+}

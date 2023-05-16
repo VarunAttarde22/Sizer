@@ -1,5 +1,6 @@
 import { createContext, Dispatch } from "react";
-import response from "./components.util.json";
+import { getComponentsList } from "../utils/getComponentsList";
+import componentData from "../../data/components-list.util.json";
 
 interface ContextProps {
   data: any;
@@ -7,7 +8,11 @@ interface ContextProps {
 }
 
 export const MyContext = createContext<ContextProps>({
-  data: [...response],
+  data: {
+    data: getComponentsList(componentData.resolvedComponentVersions),
+    editorValue: [],
+    summationValue: {},
+  },
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   dispatch: () => {},
 });

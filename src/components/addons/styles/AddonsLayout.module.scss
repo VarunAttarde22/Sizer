@@ -2,6 +2,18 @@
   display: flex;
   position: relative;
   .Addons_Label_wrapper{width: 65%; margin: 1rem}
+  .Addons_Label{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 17px;
+      align-items: center;
+      .Addons_Label_Inner{
+        display: flex;
+        .Editor_Type_Wrapper{
+          display: flex; height: fit-content;
+        }
+      }
+  }
   .Editor_Wrapper{
     width: 35%;
     background: whitesmoke;
@@ -11,9 +23,105 @@
     top: 56px
   }
 }
+.Button_Icon{
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
 
+}
 .Label {
   color: #303030;
   font-weight: 700;
   font-size: 24px;
+}
+.Border_Radius {
+  border-radius: 10px;
+}
+.tooltipText {
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  width: 100px;
+  color: black;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.tooltipText::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: white;
+  padding: 5px;
+  z-index: 1;
+}
+
+.hoverText:hover .tooltipText {
+  visibility: visible;
+}
+
+.top {
+  top: -40px;
+  left: -50%;
+}
+
+.top::before {
+  top: 80%;
+  left: 45%;
+}
+
+.bottom {
+  top: 25px;
+  left: -50%;
+}
+
+.bottom::before {
+  top: -5%;
+  left: 45%;
+}
+
+.left {
+  top: -8px;
+  right: 120%;
+}
+
+.left::before {
+  top: 35%;
+  left: 94%;
+}
+
+.right {
+  top: -8px;
+  left: 120%;
+}
+
+.right::before {
+  top: 35%;
+  left: -2%;
+}
+
+.hoverText {
+  position: relative;
+  display: inline-block;
+  font-family: Arial;
+  text-align: center;
+}
+
+.Summation_Wrapper{
+  display: grid;
+    column-gap: 5px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    .Summation_Wrapper_Inner{
+      display:flex;justify-content: space-between;
+      .Summation_Wrapper_Icon_Wrapper{
+        margin-right: 5px;display: flex;align-self: center;
+      }
+      .Summation_Wrapper_Value_Wrapper{
+        display: flex;align-self: center;font-size: medium;
+      }
+    }
 }

@@ -1,0 +1,26 @@
+{
+    "activemq-postgres": {
+        "cpuRequest":"100m",
+        "maxCpuRequest":"1000m",
+        "memoryRequest":"100Mi",
+        "maxMemoryRequest":"1000Mi"
+    },
+    "backup-restore-operator": {
+        "cpuRequest":"300m",
+        "maxCpuRequest":"2000m",
+        "memoryRequest":"150Mi",
+        "maxMemoryRequest":"1000Mi"
+    },
+    "csi": {
+        "cpuRequest":"400m",
+        "maxCpuRequest":"3000m",
+        "memoryRequest":"400Mi",
+        "maxMemoryRequest":"1000Mi"
+    },
+    "csi-operator": {
+        "cpuRequest":"100m",
+        "maxCpuRequest":"1000m",
+        "memoryRequest":"100Mi",
+        "maxMemoryRequest":"1000Mi"
+    }      
+}

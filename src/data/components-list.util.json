@@ -1,0 +1,2137 @@
+{
+    "productName": "atlantic",
+    "releaseVersion": "1.1",
+    "patchSequence": "2",
+    "componentsForRelease": {
+        "activemq-postgres": "latest",
+        "backup-restore-operator": "latest",
+        "csi": "green",
+        "csi-operator": "green",
+        "docker-registry": "latest",
+        "helmrepo": "latest",
+        "keycloak": "latest",
+        "platform-operator": "latest",
+        "platform-manager": "latest",
+        "vault": "latest",
+        "cert-manager": "latest",
+        "metallb": "latest",
+        "nfs-server": "latest",
+        "http-share": "latest",
+        "samba-server": "latest",
+        "k8scluster-automation": "latest",
+        "k8s-distribution": "0.0.1-46.c729ec0",
+        "decks": "latest",
+        "kahm": "latest",
+        "flux-toolkit": "latest",
+        "local-path-provisioner": "latest",
+        "whereabouts": "latest",
+        "logging": "latest",
+        "os-manager": "latest",
+        "istio": "latest",
+        "cmo-ui": "latest",
+        "cmo-graphql": "latest",
+        "pg-operator": "5.2.0-92.56556f7-136",
+        "cce-operator": "latest",
+        "life-cycle-management-operator": "latest",
+        "cmo-sync": "latest",
+        "cmo-preupgrader": "latest",
+        "cmo-hardware-alert-controller": "latest",
+        "cmo-host-cfg-manager": "latest",
+        "cmo-provisioning-operator": "latest",
+        "ip-address-manager": "latest",
+        "cmo-pivot-operator": "latest",
+        "lcm-distribution": "latest",
+        "dkcli": "latest",
+        "observability-subscription-operator": "latest",
+        "observability-pipeline": "latest",
+        "observability-source-operator": "latest",
+        "observability-destination-operator": "latest",
+        "cmo-bootstrap-cluster": "1.0.0-162.da5167a",
+        "pacific-keycloak": "18.0.1-9.b31b75a",
+        "atlantic-node-upgrade": "latest",
+        "cmo-cluster-operator": "latest",
+        "mw-hardware-controller": "latest",
+        "os-sku-pack": "latest",
+        "mw-common": "latest",
+        "mw-server-controller": "latest",
+        "redfish-sku-pack": "latest"
+    },
+    "sliceTimestamp": "2023-05-12_060709GMT",
+    "fullVersion": "1.1.2-3081",
+    "resolvedComponentVersions": {
+        "activemq-postgres": "0.0.1-54.2f0f399",
+        "backup-restore-operator": "0.0.1-73.ff75b60",
+        "csi": "1.3.0-633.1c96858",
+        "csi-operator": "1.3.0-119.7aaddd9",
+        "docker-registry": "0.0.1-63.5773bba",
+        "helmrepo": "0.0.1-25.3895116",
+        "keycloak": "17.0.1-22.dfb5a8e",
+        "platform-operator": "0.0.1-62.8aab201",
+        "platform-manager": "33-0.0.1-195.e2d5b29",
+        "vault": "1.0.0-434.a52f50d",
+        "cert-manager": "v1.10.1-7303.e73ffc4b0",
+        "metallb": "0.13.7-1705.d8a8e6e2",
+        "nfs-server": "0.0.1-27.3f4c26b",
+        "http-share": "1.0.0-44.f25ecd1",
+        "samba-server": "0.0.1-35.c62ab5c",
+        "k8scluster-automation": "0.0.1-1190.1032589a",
+        "k8s-distribution": "0.0.1-46.c729ec0",
+        "decks": "3.0.0-362.308d2e4",
+        "kahm": "2.105.0-246.4002418",
+        "flux-toolkit": "v0.21.2-22.e180cae",
+        "local-path-provisioner": "0.0.1-129.b750367",
+        "whereabouts": "0.1.1-57.a170c19",
+        "logging": "0.1.0-84.49b668b",
+        "os-manager": "0.1.0-93.d9ff54b",
+        "istio": "1.14.3-14340.5425e3e66",
+        "cmo-ui": "1.0.0-142.747b437",
+        "cmo-graphql": "1.0.0-55.ec8ab19",
+        "pg-operator": "5.2.0-92.56556f7-136",
+        "cce-operator": "61-0.0.1-44.9206e8d",
+        "life-cycle-management-operator": "1.0.0-144.d2eebd9",
+        "cmo-sync": "1.0.0-17.e9cd659",
+        "cmo-preupgrader": "1.0.0-18.1477089",
+        "cmo-hardware-alert-controller": "1.0.0-53.d715435",
+        "cmo-host-cfg-manager": "1.0.0-85.63b90ab",
+        "cmo-provisioning-operator": "1.0.0-69.c3555b0",
+        "ip-address-manager": "1.0.0-17.3498fe8",
+        "cmo-pivot-operator": "1.0.0-35.ed2c528",
+        "lcm-distribution": "1.0.0-143.819cb0f",
+        "dkcli": "0.0.8-153.7e9428f",
+        "observability-subscription-operator": "1.0.0-28.1dce73c",
+        "observability-pipeline": "1.0.0-14.59bcb2f",
+        "observability-source-operator": "1.0.0-14.e6130d9",
+        "observability-destination-operator": "1.0.0-14.b379145",
+        "cmo-bootstrap-cluster": "1.0.0-162.da5167a",
+        "pacific-keycloak": "18.0.1-9.b31b75a",
+        "atlantic-node-upgrade": "92-0.0.1-34.cb25fac",
+        "cmo-cluster-operator": "1.0.0-8.7e821c6",
+        "mw-hardware-controller": "1.0.0-368.cb330e0",
+        "os-sku-pack": "1.0.0-75.e0815e0",
+        "mw-common": "1.0.0-626.8a2d5ac",
+        "mw-server-controller": "1.0.0-1141.f5798109",
+        "redfish-sku-pack": "1.0.0-566.ac8a55e"
+    },
+    "resolvedArtifacts": [
+        {
+            "artifactId": "activemq-postgres",
+            "version": "0.0.1-54.2f0f399",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "activemq-postgres",
+            "componentName": "activemq-postgres",
+            "componentVersion": "0.0.1-54.2f0f399"
+        },
+        {
+            "artifactId": "activemq-postgres-busybox",
+            "version": "1.32.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "busybox",
+            "componentName": "activemq-postgres",
+            "componentVersion": "0.0.1-54.2f0f399"
+        },
+        {
+            "artifactId": "activemq-postgres-chart",
+            "version": "0.0.1-54.2f0f399",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/activemq-postgres/0.0.1-54.2f0f399/activemq-postgres-0.0.1-54.2f0f399.tgz",
+            "componentName": "activemq-postgres",
+            "componentVersion": "0.0.1-54.2f0f399"
+        },
+        {
+            "artifactId": "backup-restore-operator",
+            "version": "0.0.1-73.ff75b60",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "backup-restore-operator",
+            "componentName": "backup-restore-operator",
+            "componentVersion": "0.0.1-73.ff75b60"
+        },
+        {
+            "artifactId": "backup-restore-operator-chart",
+            "version": "0.0.1-73.ff75b60",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/backup-restore-operator/0.0.1-73.ff75b60/backup-restore-operator-0.0.1-73.ff75b60.tgz",
+            "componentName": "backup-restore-operator",
+            "componentVersion": "0.0.1-73.ff75b60"
+        },
+        {
+            "artifactId": "csi-baremetal-node-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-node",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-node-kernel-5.4-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-node-kernel-5.4",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-controller-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-controller",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-halmgr-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-halmgr",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-basemgr-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-basemgr",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-loopbackmgr-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-loopbackmgr",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-scheduler-extender-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-scheduler-extender",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-scheduler-patcher-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-scheduler-patcher",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-scheduler-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-scheduler",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-node-controller-docker-image",
+            "version": "1.3.0-633.1c96858",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-node-controller",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-provisioner-docker-image",
+            "version": "v3.1.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-provisioner",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-node-driver-registrar-docker-image",
+            "version": "v2.5.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-node-driver-registrar",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "livenessprobe-docker-image",
+            "version": "v2.6.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "livenessprobe",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-resizer-docker-image",
+            "version": "v1.4.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-resizer",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "kube-scheduler-docker-image",
+            "version": "v0.23.10",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "kube-scheduler",
+            "componentName": "csi",
+            "componentVersion": "1.3.0-633.1c96858"
+        },
+        {
+            "artifactId": "csi-baremetal-operator-docker-image",
+            "version": "1.3.0-119.7aaddd9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-operator",
+            "componentName": "csi-operator",
+            "componentVersion": "1.3.0-119.7aaddd9"
+        },
+        {
+            "artifactId": "csi-baremetal-pre-upgrade-crds-docker-image",
+            "version": "1.3.0-119.7aaddd9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "csi-baremetal-pre-upgrade-crds",
+            "componentName": "csi-operator",
+            "componentVersion": "1.3.0-119.7aaddd9"
+        },
+        {
+            "artifactId": "secondary-scheduler-operator-docker-image",
+            "version": "1.3.0-119.7aaddd9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "secondary-scheduler-operator",
+            "componentName": "csi-operator",
+            "componentVersion": "1.3.0-119.7aaddd9"
+        },
+        {
+            "artifactId": "csi-baremetal-deployment-helm-chart",
+            "version": "1.3.0-119.7aaddd9",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/csi-operator/1.3.0-119.7aaddd9/csi-baremetal-deployment-1.3.0-119.7aaddd9.tgz",
+            "componentName": "csi-operator",
+            "componentVersion": "1.3.0-119.7aaddd9"
+        },
+        {
+            "artifactId": "csi-baremetal-operator-helm-chart",
+            "version": "1.3.0-119.7aaddd9",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/csi-operator/1.3.0-119.7aaddd9/csi-baremetal-operator-1.3.0-119.7aaddd9.tgz",
+            "componentName": "csi-operator",
+            "componentVersion": "1.3.0-119.7aaddd9"
+        },
+        {
+            "artifactId": "secondary-scheduler-operator-helm-chart",
+            "version": "1.3.0-119.7aaddd9",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/csi-operator/1.3.0-119.7aaddd9/secondaryscheduleroperator-1.3.0-119.7aaddd9.tgz",
+            "componentName": "csi-operator",
+            "componentVersion": "1.3.0-119.7aaddd9"
+        },
+        {
+            "artifactId": "docker-registry",
+            "version": "2.8.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "registry",
+            "componentName": "docker-registry",
+            "componentVersion": "0.0.1-63.5773bba"
+        },
+        {
+            "artifactId": "docker-registry-charts",
+            "version": "0.0.1-63.5773bba",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/docker-registry/0.0.1-63.5773bba/docker-registry-0.0.1-63.5773bba.tgz",
+            "componentName": "docker-registry",
+            "componentVersion": "0.0.1-63.5773bba"
+        },
+        {
+            "artifactId": "helmrepo-nginx",
+            "version": "1.23.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "nginx",
+            "componentName": "helmrepo",
+            "componentVersion": "0.0.1-25.3895116"
+        },
+        {
+            "artifactId": "helmrepo-chart",
+            "version": "0.0.1-25.3895116",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/helmrepo/0.0.1-25.3895116/helmrepo-0.0.1-25.3895116.tgz",
+            "componentName": "helmrepo",
+            "componentVersion": "0.0.1-25.3895116"
+        },
+        {
+            "artifactId": "keycloak-image",
+            "version": "20.0.3-22.dfb5a8e",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "keycloak",
+            "componentName": "keycloak",
+            "componentVersion": "17.0.1-22.dfb5a8e"
+        },
+        {
+            "artifactId": "keycloak-charts",
+            "version": "17.0.1-22.dfb5a8e",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/keycloak/17.0.1-22.dfb5a8e/keycloak-17.0.1-22.dfb5a8e.tgz",
+            "componentName": "keycloak",
+            "componentVersion": "17.0.1-22.dfb5a8e"
+        },
+        {
+            "artifactId": "platform-operator",
+            "version": "0.0.1-62.8aab201",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "platform-operator",
+            "componentName": "platform-operator",
+            "componentVersion": "0.0.1-62.8aab201"
+        },
+        {
+            "artifactId": "platform-operator-chart",
+            "version": "0.0.1-62.8aab201",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/platform-operator/0.0.1-62.8aab201/platform-operator-0.0.1-62.8aab201.tgz",
+            "componentName": "platform-operator",
+            "componentVersion": "0.0.1-62.8aab201"
+        },
+        {
+            "artifactId": "platform-manager-image",
+            "version": "33-0.0.1-195.e2d5b29",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "atlantic_installer",
+            "componentName": "platform-manager",
+            "componentVersion": "33-0.0.1-195.e2d5b29"
+        },
+        {
+            "artifactId": "platform-manager-charts",
+            "version": "33-0.0.1-195.e2d5b29",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/platform-manager/33-0.0.1-195.e2d5b29/platform-manager-33-0.0.1-195.e2d5b29.tgz",
+            "componentName": "platform-manager",
+            "componentVersion": "33-0.0.1-195.e2d5b29"
+        },
+        {
+            "artifactId": "leader-elector",
+            "version": "0.4",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "google_containers/leader-elector",
+            "componentName": "vault",
+            "componentVersion": "1.0.0-434.a52f50d"
+        },
+        {
+            "artifactId": "vault-k8s",
+            "version": "1.1.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "hashicorp/vault-k8s",
+            "componentName": "vault",
+            "componentVersion": "1.0.0-434.a52f50d"
+        },
+        {
+            "artifactId": "vault",
+            "version": "1.12.2",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "hashicorp/vault",
+            "componentName": "vault",
+            "componentVersion": "1.0.0-434.a52f50d"
+        },
+        {
+            "artifactId": "vault-charts",
+            "version": "0.23.0",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/vault/0.23.0/vault-0.23.0.tgz",
+            "componentName": "vault",
+            "componentVersion": "1.0.0-434.a52f50d"
+        },
+        {
+            "artifactId": "cert-manager-controller-amd64",
+            "version": "v1.10.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/cert-manager-controller-amd64",
+            "componentName": "cert-manager",
+            "componentVersion": "v1.10.1-7303.e73ffc4b0"
+        },
+        {
+            "artifactId": "cert-manager-cainjector-amd64",
+            "version": "v1.10.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/cert-manager-cainjector-amd64",
+            "componentName": "cert-manager",
+            "componentVersion": "v1.10.1-7303.e73ffc4b0"
+        },
+        {
+            "artifactId": "cert-manager-cert-manager-ctl-amd64",
+            "version": "v1.10.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/cert-manager-ctl-amd64",
+            "componentName": "cert-manager",
+            "componentVersion": "v1.10.1-7303.e73ffc4b0"
+        },
+        {
+            "artifactId": "cert-manager-webhook-amd64",
+            "version": "v1.10.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/cert-manager-webhook-amd64",
+            "componentName": "cert-manager",
+            "componentVersion": "v1.10.1-7303.e73ffc4b0"
+        },
+        {
+            "artifactId": "cert-manager-acmesolver-amd64",
+            "version": "v1.7.1-49-96.8127bdb",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/cert-manager-acmesolver-amd64",
+            "componentName": "cert-manager",
+            "componentVersion": "v1.10.1-7303.e73ffc4b0"
+        },
+        {
+            "artifactId": "cert-manager-charts",
+            "version": "v1.10.1-7303.e73ffc4b0",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cert-manager/v1.10.1-7303.e73ffc4b0/cert-manager-v1.10.1-7303.e73ffc4b0.tgz",
+            "componentName": "cert-manager",
+            "componentVersion": "v1.10.1-7303.e73ffc4b0"
+        },
+        {
+            "artifactId": "metallb-speaker",
+            "version": "v0.13.7",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "metallb/speaker",
+            "componentName": "metallb",
+            "componentVersion": "0.13.7-1705.d8a8e6e2"
+        },
+        {
+            "artifactId": "metallb-controller",
+            "version": "v0.13.7",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "metallb/controller",
+            "componentName": "metallb",
+            "componentVersion": "0.13.7-1705.d8a8e6e2"
+        },
+        {
+            "artifactId": "metallb-charts",
+            "version": "0.13.7-1705.d8a8e6e2",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/metallb/0.13.7-1705.d8a8e6e2/metallb-0.13.7-1705.d8a8e6e2.tgz",
+            "componentName": "metallb",
+            "componentVersion": "0.13.7-1705.d8a8e6e2"
+        },
+        {
+            "artifactId": "nfs-server",
+            "version": "0.0.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "nfs-server",
+            "componentName": "nfs-server",
+            "componentVersion": "0.0.1-27.3f4c26b"
+        },
+        {
+            "artifactId": "nfs-server-chart",
+            "version": "0.0.1-27.3f4c26b",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/nfs-server/0.0.1-27.3f4c26b/nfs-server-0.0.1-27.3f4c26b.tgz",
+            "componentName": "nfs-server",
+            "componentVersion": "0.0.1-27.3f4c26b"
+        },
+        {
+            "artifactId": "http-share-nginx",
+            "version": "1.23.2",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "nginx",
+            "componentName": "http-share",
+            "componentVersion": "1.0.0-44.f25ecd1"
+        },
+        {
+            "artifactId": "http-share-fileupload",
+            "version": "1.0.0-44.f25ecd1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "fileupload",
+            "componentName": "http-share",
+            "componentVersion": "1.0.0-44.f25ecd1"
+        },
+        {
+            "artifactId": "http-share-charts",
+            "version": "1.0.0-44.f25ecd1",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/http-share/1.0.0-44.f25ecd1/httpshare-1.0.0-44.f25ecd1.tgz",
+            "componentName": "http-share",
+            "componentVersion": "1.0.0-44.f25ecd1"
+        },
+        {
+            "artifactId": "samba-server-samba4k8s",
+            "version": "latest",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "samba4k8s",
+            "componentName": "samba-server",
+            "componentVersion": "0.0.1-35.c62ab5c"
+        },
+        {
+            "artifactId": "samba-server-chart",
+            "version": "0.0.1-35.c62ab5c",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/samba-server/0.0.1-35.c62ab5c/samba-0.0.1-35.c62ab5c.tgz",
+            "componentName": "samba-server",
+            "componentVersion": "0.0.1-35.c62ab5c"
+        },
+        {
+            "artifactId": "k8scluster-automation",
+            "branch": "main",
+            "version": "0.0.1-1190.1032589a",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/k8scluster-automation/0.0.1-1190.1032589a/k8scluster-automation.tgz",
+            "componentName": "k8scluster-automation",
+            "componentVersion": "0.0.1-1190.1032589a"
+        },
+        {
+            "artifactId": "k8s-distribution-package-1",
+            "version": "1.25.3",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/com/emc/atlantic/k8s-distribution/0.0.1-38.767de3c/k8s-distribution-1.25.3.tgz",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "k8s-distribution-package",
+            "version": "1.26.4",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/com/emc/atlantic/k8s-distribution/0.0.1-46.c729ec0/k8s-distribution-1.26.4.tgz",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "rke2-1.26.4-rke2r1-cilium",
+            "version": "0.0.1-46.c729ec0",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/rke2-binaries/1.26.4_ZST/rke2-images-cilium.linux-amd64.tar.zst",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "rke2-1.26.4-rke2r1-amd64",
+            "version": "0.0.1-46.c729ec0",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/rke2-binaries/1.26.4_ZST/rke2.linux-amd64.tar.gz",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "rke2-1.26.4-rke2r1-calico",
+            "version": "0.0.1-46.c729ec0",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/rke2-binaries/1.26.4_ZST/rke2-images-calico.linux-amd64.tar.zst",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "rke2-1.26.4-rke2r1-multus",
+            "version": "0.0.1-46.c729ec0",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/rke2-binaries/1.26.4_ZST/rke2-images-multus.linux-amd64.tar.zst",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "rke2-1.26.4-rke2r1-core",
+            "version": "0.0.1-46.c729ec0",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/rke2-binaries/1.26.4_ZST/rke2-images-core.linux-amd64.tar.zst",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "artifactId": "helm",
+            "version": "v3.8.1",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/helm/3.8.1/helm-v3.8.1-linux-amd64.tar.gz ",
+            "componentName": "k8s-distribution",
+            "componentVersion": "0.0.1-46.c729ec0"
+        },
+        {
+            "path": "decks",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:80c53a76613c3d8edcff01f8d08d70cc6f05012281ef85e83aa8978cd84f1ce7",
+            "artifactId": "decks-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "decks",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:80c53a76613c3d8edcff01f8d08d70cc6f05012281ef85e83aa8978cd84f1ce7",
+            "artifactId": "decks-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "supportassist-ese-notifier",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:4dc31b3ffb68e6847f3ed6bbd3035702a529fe3ca7404e4f22e23a868a9e7caf",
+            "artifactId": "ese-notifier-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "supportassist-ese-notifier",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:4dc31b3ffb68e6847f3ed6bbd3035702a529fe3ca7404e4f22e23a868a9e7caf",
+            "artifactId": "ese-notifier-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "ese-callback",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:98971ce82f07d071f4fdb3b1a29afb943ff6a276d5a29942b70da66229b53b8f",
+            "artifactId": "ese-callback-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "ese-callback",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:98971ce82f07d071f4fdb3b1a29afb943ff6a276d5a29942b70da66229b53b8f",
+            "artifactId": "ese-callback-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "decks-support-store",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:c73d4f68e452ae187a4ee7b8da42a56a0d0adea9502b8c5ff9d7956d0bdff581",
+            "artifactId": "decks-support-store-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "decks-support-store",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:c73d4f68e452ae187a4ee7b8da42a56a0d0adea9502b8c5ff9d7956d0bdff581",
+            "artifactId": "decks-support-store-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "telemetry-upload",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:cf3c72b562168fc9c5d1394d73e1758f1ee9704440a0595f0b69d5c263391616",
+            "artifactId": "telemetry-upload-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "telemetry-upload",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:cf3c72b562168fc9c5d1394d73e1758f1ee9704440a0595f0b69d5c263391616",
+            "artifactId": "telemetry-upload-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "dell-supportassist-ese",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:83472b1595d318ebd80d3ed60fa180f4810bf512eb85c36a6f5bea1db2ce0379",
+            "artifactId": "dell-supportassist-ese-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "dell-supportassist-ese",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:83472b1595d318ebd80d3ed60fa180f4810bf512eb85c36a6f5bea1db2ce0379",
+            "artifactId": "dell-supportassist-ese-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "base-service-tools",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:31535d1290a114c92811f883371406a69d0bc613b9404b3d28ad936ea2f438d8",
+            "artifactId": "atl-base-service-tools-image",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "base-service-tools",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:31535d1290a114c92811f883371406a69d0bc613b9404b3d28ad936ea2f438d8",
+            "artifactId": "atl-base-service-tools-image-8099",
+            "type": "docker-image",
+            "version": "3.0.0-362.308d2e4",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "decks-objs-pre-upgrade-crds-image-8099",
+            "version": "1.3.0-2403",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "path": "objs-pre-upgrade-crds",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "decks-objs-pre-upgrade-crds-image",
+            "version": "1.3.0-2403",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "objs-pre-upgrade-crds",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "decks-kubectl-docker-image",
+            "version": "v1.23.5",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "kubectl",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "decks-charts",
+            "version": "2.3.0-2403",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/decks/3.0.0-362.308d2e4/decks-2.3.0-2403.tgz",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "decks-support-store-charts",
+            "version": "2.3.0-2403",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/decks/3.0.0-362.308d2e4/decks-support-store-2.3.0-2403.tgz",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "dellemc-license-charts",
+            "version": "2.3.0-2403",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/decks/3.0.0-362.308d2e4/dellemc-license-2.3.0-2403.tgz",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "service-pod-charts",
+            "version": "2.3.0-2403",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/decks/3.0.0-362.308d2e4/service-pod-2.3.0-2403.tgz",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "artifactId": "supportassist-charts",
+            "version": "2.3.0-2403",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/decks/3.0.0-362.308d2e4/supportassist-2.3.0-2403.tgz",
+            "componentName": "decks",
+            "componentVersion": "3.0.0-362.308d2e4"
+        },
+        {
+            "path": "https:/objectscale-api/kahm/eventcli-2.105.0-246.4002418-linux",
+            "endpoint": "((onyx-ecs.endpoint))",
+            "artifactId": "linux-eventcli-binary",
+            "type": "s3",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "kahm",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:dceea50a3a9bf73bdaaec7db85c35081e30977f72498b2a6d3356d3ffd5a2493",
+            "artifactId": "kahm-image",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "kahm",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:dceea50a3a9bf73bdaaec7db85c35081e30977f72498b2a6d3356d3ffd5a2493",
+            "artifactId": "kahm-image-8099",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "postgresql-repmgr",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:c6e05917c2511ebc69477cf0ed65fb2b230cc782aec9693441bd00fa3b5f8e7a",
+            "artifactId": "postgresql-image",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "postgresql-repmgr",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:c6e05917c2511ebc69477cf0ed65fb2b230cc782aec9693441bd00fa3b5f8e7a",
+            "artifactId": "postgresql-image-8099",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "pgpool",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:876d8d08c73f071d64facb5fcee8e1ab64dc1b170b86a12493341992caf6e6de",
+            "artifactId": "pgpool-image",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "pgpool",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:876d8d08c73f071d64facb5fcee8e1ab64dc1b170b86a12493341992caf6e6de",
+            "artifactId": "pgpool-image-8099",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "kahm-testapp",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:733c63b54269bba1102e578faa513f2f5a8a32d3b133c8e73254a017c830814c",
+            "artifactId": "kahm-testapp-image",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "kahm-testapp",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:733c63b54269bba1102e578faa513f2f5a8a32d3b133c8e73254a017c830814c",
+            "artifactId": "kahm-testapp-image-8099",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "mock-notifier",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:62e0f2281deb0ba6ebf3afd0ba97b094eac16a0fda9e1ac0b7723c064966e791",
+            "artifactId": "mock-notifier-image",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "mock-notifier",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:62e0f2281deb0ba6ebf3afd0ba97b094eac16a0fda9e1ac0b7723c064966e791",
+            "artifactId": "mock-notifier-image-8099",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "snmp-notifier",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "digest": "sha256:ec82e8f1290787898e50a8af18ddd4756290ec2f4763f5bed99392d976647ba1",
+            "artifactId": "snmp-notifier-image",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "path": "snmp-notifier",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "digest": "sha256:ec82e8f1290787898e50a8af18ddd4756290ec2f4763f5bed99392d976647ba1",
+            "artifactId": "snmp-notifier-image-8099",
+            "type": "docker-image",
+            "version": "2.105.0-246.4002418",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "artifactId": "kahm-objs-pre-upgrade-crds-image-8099",
+            "version": "1.3.0-2386",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:8099",
+            "path": "objs-pre-upgrade-crds",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "artifactId": "kahm-objs-pre-upgrade-crds-image",
+            "version": "1.3.0-2386",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "objs-pre-upgrade-crds",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "artifactId": "kahm-kubectl-docker-image",
+            "version": "v1.23.5",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "kubectl",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "artifactId": "kahm-charts",
+            "version": "2.3.0-2386",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/kahm/2.105.0-246.4002418/kahm-2.3.0-2386.tgz",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "artifactId": "snmp-notifier-charts",
+            "version": "2.3.0-2386",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/kahm/2.105.0-246.4002418/snmp-notifier-2.3.0-2386.tgz",
+            "componentName": "kahm",
+            "componentVersion": "2.105.0-246.4002418"
+        },
+        {
+            "artifactId": "flux-source-controller",
+            "version": "v0.31.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "fluxcd/source-controller",
+            "componentName": "flux-toolkit",
+            "componentVersion": "v0.21.2-22.e180cae"
+        },
+        {
+            "artifactId": "flux-helm-controller",
+            "version": "v0.26.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "fluxcd/helm-controller",
+            "componentName": "flux-toolkit",
+            "componentVersion": "v0.21.2-22.e180cae"
+        },
+        {
+            "artifactId": "flux-toolkit-charts",
+            "version": "v0.21.2-22.e180cae",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/flux-toolkit/v0.21.2-22.e180cae/flux-toolkit-v0.21.2-22.e180cae.tgz",
+            "componentName": "flux-toolkit",
+            "componentVersion": "v0.21.2-22.e180cae"
+        },
+        {
+            "artifactId": "local-path-provisioner",
+            "version": "0.0.1-129.b750367",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "local-path-provisioner",
+            "componentName": "local-path-provisioner",
+            "componentVersion": "0.0.1-129.b750367"
+        },
+        {
+            "artifactId": "local-path-provisioner-busybox",
+            "version": "1.32.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "busybox",
+            "componentName": "local-path-provisioner",
+            "componentVersion": "0.0.1-129.b750367"
+        },
+        {
+            "artifactId": "local-path-provisioner-chart",
+            "version": "0.0.1-129.b750367",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/local-path-provisioner/0.0.1-129.b750367/local-path-provisioner-0.0.1-129.b750367.tgz",
+            "componentName": "local-path-provisioner",
+            "componentVersion": "0.0.1-129.b750367"
+        },
+        {
+            "artifactId": "whereabouts-image",
+            "version": "v0.6",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "whereabouts",
+            "componentName": "whereabouts",
+            "componentVersion": "0.1.1-57.a170c19"
+        },
+        {
+            "artifactId": "whereabouts-charts",
+            "version": "0.1.1-57.a170c19",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/whereabouts/0.1.1-57.a170c19/whereabouts-0.1.1-57.a170c19.tgz",
+            "componentName": "whereabouts",
+            "componentVersion": "0.1.1-57.a170c19"
+        },
+        {
+            "artifactId": "logging-operator",
+            "version": "0.1.0-84.49b668b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "logging-operator",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "logging-fluent-bit-docker-image",
+            "version": "3.9.0.0-1588.729cf194",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "fluent-bit",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "logging-logging-injector-docker-image",
+            "version": "3.9.0.0-1588.729cf194",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "logging-injector",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "logging-statefuldaemonset-operator-docker-image",
+            "version": "3.9.0.0-1588.729cf194",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "statefuldaemonset-operator",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "logging-rsyslog-docker-image",
+            "version": "3.9.0.0-1588.729cf194",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "rsyslog",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "logging-telegraf-docker-image",
+            "version": "3.9.0.0-1588.729cf194",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "telegraf",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "fluentd",
+            "version": "1.13.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "fluentd",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "fluentd-config-reload-docker-image",
+            "version": "v0.4.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "jimmidyson/configmap-reload",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "kube-rbac-proxy-docker-image",
+            "version": "v0.8.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "gcr.io/kubebuilder/kube-rbac-proxy",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "logging-operator-logging",
+            "version": "0.1.0-84.49b668b",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/com/emc/atlantic/charts/logging/0.1.0-84.49b668b/logging-operator-logging.tgz",
+            "componentName": "logging",
+            "componentVersion": "0.1.0-84.49b668b"
+        },
+        {
+            "artifactId": "os-manager",
+            "version": "0.1.0-93.d9ff54b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "os-manager",
+            "componentName": "os-manager",
+            "componentVersion": "0.1.0-93.d9ff54b"
+        },
+        {
+            "artifactId": "ansible_job",
+            "version": "0.1.0-93.d9ff54b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "ansible_job",
+            "componentName": "os-manager",
+            "componentVersion": "0.1.0-93.d9ff54b"
+        },
+        {
+            "artifactId": "os-config-env-setup",
+            "version": "0.1.0-93.d9ff54b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "os-config-env-setup",
+            "componentName": "os-manager",
+            "componentVersion": "0.1.0-93.d9ff54b"
+        },
+        {
+            "artifactId": "setup_host_env",
+            "version": "0.1.0-93.d9ff54b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "setup_host_env",
+            "componentName": "os-manager",
+            "componentVersion": "0.1.0-93.d9ff54b"
+        },
+        {
+            "artifactId": "ssh-copy-id",
+            "version": "0.1.0-93.d9ff54b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "ssh-copy-id",
+            "componentName": "os-manager",
+            "componentVersion": "0.1.0-93.d9ff54b"
+        },
+        {
+            "artifactId": "os-manager-chart",
+            "version": "0.1.0-93.d9ff54b",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/os-manager-0.1.0-93.d9ff54b.tgz",
+            "componentName": "os-manager",
+            "componentVersion": "0.1.0-93.d9ff54b"
+        },
+        {
+            "artifactId": "istio-pilot",
+            "version": "1.14.3-tetratefips-v0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "istio-pilot",
+            "componentName": "istio",
+            "componentVersion": "1.14.3-14340.5425e3e66"
+        },
+        {
+            "artifactId": "istio-proxyv2",
+            "version": "1.14.3-tetratefips-v0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "istio-proxyv2",
+            "componentName": "istio",
+            "componentVersion": "1.14.3-14340.5425e3e66"
+        },
+        {
+            "artifactId": "istio-ingress-chart",
+            "version": "1.14.3-14340.5425e3e66",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/tps-istio/1.14.3-14340.5425e3e66/istio-ingress-1.14.3-14340.5425e3e66.tgz",
+            "componentName": "istio",
+            "componentVersion": "1.14.3-14340.5425e3e66"
+        },
+        {
+            "artifactId": "istio-base-chart",
+            "version": "1.14.3-14340.5425e3e66",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/tps-istio/1.14.3-14340.5425e3e66/base-1.14.3-14340.5425e3e66.tgz",
+            "componentName": "istio",
+            "componentVersion": "1.14.3-14340.5425e3e66"
+        },
+        {
+            "artifactId": "istio-discovery-chart",
+            "version": "1.14.3-14340.5425e3e66",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/tps-istio/1.14.3-14340.5425e3e66/istio-discovery-1.14.3-14340.5425e3e66.tgz",
+            "componentName": "istio",
+            "componentVersion": "1.14.3-14340.5425e3e66"
+        },
+        {
+            "artifactId": "cmo-ui-image",
+            "version": "1.0.0-142.747b437",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "cmo-ui",
+            "componentName": "cmo-ui",
+            "componentVersion": "1.0.0-142.747b437"
+        },
+        {
+            "artifactId": "cmo-ui-charts",
+            "version": "1.0.0-142.747b437",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cmo-ui/1.0.0-142.747b437/cmo-ui-1.0.0-142.747b437.tgz",
+            "componentName": "cmo-ui",
+            "componentVersion": "1.0.0-142.747b437"
+        },
+        {
+            "artifactId": "cmo-graphql-image",
+            "version": "1.0.0-55.ec8ab19",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "cmo-graphql",
+            "componentName": "cmo-graphql",
+            "componentVersion": "1.0.0-55.ec8ab19"
+        },
+        {
+            "artifactId": "cmo-graphql-server-image",
+            "version": "1.0.0-6.da94b7b",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "graphql-server",
+            "componentName": "cmo-graphql",
+            "componentVersion": "1.0.0-55.ec8ab19"
+        },
+        {
+            "artifactId": "cmo-graphql-charts",
+            "version": "1.0.0-55.ec8ab19",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cmo-graphql/1.0.0-55.ec8ab19/cmo-graphql-1.0.0-55.ec8ab19.tgz",
+            "componentName": "cmo-graphql",
+            "componentVersion": "1.0.0-55.ec8ab19"
+        },
+        {
+            "artifactId": "pg-operator-upgrade",
+            "version": "ubi8-5.1.2-0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/crunchy-upgrade",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-pgbackrest",
+            "version": "ubi8-2.38-2",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/crunchy-pgbackrest",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-pgadmin4",
+            "version": "ubi8-4.30-2",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/crunchy-pgadmin4",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-postgres",
+            "version": "ubi8-14.4-0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/crunchy-postgres",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-pgbouncer",
+            "version": "ubi8-1.16-4",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/crunchy-pgbouncer",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-exporter",
+            "version": "ubi8-5.1.2-0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/crunchy-postgres-exporter",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-postgres-operator",
+            "version": "ubi8-5.2.0-92.56556f7-136",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/postgres-operator",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-postgres-operator-upgrade",
+            "version": "ubi8-5.1.2-0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "crunchydata/postgres-operator-upgrade",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "pg-operator-charts",
+            "version": "5.2.0-92.56556f7-136",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "/artifactory/atlantic-helm-build/pg-operator/5.2.0-92.56556f7-136/pgo-5.2.0-92.56556f7-136.tgz",
+            "componentName": "pg-operator",
+            "componentVersion": "5.2.0-92.56556f7-136"
+        },
+        {
+            "artifactId": "cce",
+            "version": "61-0.0.1-44.9206e8d",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "cce",
+            "componentName": "cce-operator",
+            "componentVersion": "61-0.0.1-44.9206e8d"
+        },
+        {
+            "artifactId": "cce-chart",
+            "version": "61-0.0.1-44.9206e8d",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cce/61-0.0.1-44.9206e8d/cce-61-0.0.1-44.9206e8d.tgz",
+            "componentName": "cce-operator",
+            "componentVersion": "61-0.0.1-44.9206e8d"
+        },
+        {
+            "artifactId": "cce-operator",
+            "version": "61-0.0.1-44.9206e8d",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "cce-operator",
+            "componentName": "cce-operator",
+            "componentVersion": "61-0.0.1-44.9206e8d"
+        },
+        {
+            "artifactId": "cce-operator-chart",
+            "version": "61-0.0.1-44.9206e8d",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cce-operator/61-0.0.1-44.9206e8d/cce-operator-61-0.0.1-44.9206e8d.tgz",
+            "componentName": "cce-operator",
+            "componentVersion": "61-0.0.1-44.9206e8d"
+        },
+        {
+            "artifactId": "life-cycle-management-operator-nginx",
+            "version": "1.0.0-144.d2eebd9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "life-cycle-management-operator",
+            "componentName": "life-cycle-management-operator",
+            "componentVersion": "1.0.0-144.d2eebd9"
+        },
+        {
+            "artifactId": "life-cycle-management-operator-executor",
+            "version": "1.0.0-144.d2eebd9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "lcm-executor",
+            "componentName": "life-cycle-management-operator",
+            "componentVersion": "1.0.0-144.d2eebd9"
+        },
+        {
+            "artifactId": "life-cycle-management-operator-upgrade-controller",
+            "version": "v0.9.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "rancher/system-upgrade-controller",
+            "componentName": "life-cycle-management-operator",
+            "componentVersion": "1.0.0-144.d2eebd9"
+        },
+        {
+            "artifactId": "life-cycle-management-operator-kubectl",
+            "version": "v1.21.9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "rancher/kubectl",
+            "componentName": "life-cycle-management-operator",
+            "componentVersion": "1.0.0-144.d2eebd9"
+        },
+        {
+            "artifactId": "life-cycle-management-operator-charts",
+            "version": "1.0.0-144.d2eebd9",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/life-cycle-management-operator/1.0.0-144.d2eebd9/life-cycle-management-operator-1.0.0-144.d2eebd9.tgz",
+            "componentName": "life-cycle-management-operator",
+            "componentVersion": "1.0.0-144.d2eebd9"
+        },
+        {
+            "artifactId": "cmo-sync-helm-repo",
+            "version": "1.0.0-17.e9cd659",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "sync-helm-repo",
+            "componentName": "cmo-sync",
+            "componentVersion": "1.0.0-17.e9cd659"
+        },
+        {
+            "artifactId": "cmo-sync-docker-registry",
+            "version": "1.0.0-17.e9cd659",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "sync-docker-registry",
+            "componentName": "cmo-sync",
+            "componentVersion": "1.0.0-17.e9cd659"
+        },
+        {
+            "artifactId": "cmo-preupgrader",
+            "version": "1.0.0-18.1477089",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "cmo-preupgrader",
+            "componentName": "cmo-preupgrader",
+            "componentVersion": "1.0.0-18.1477089"
+        },
+        {
+            "artifactId": "cmo-hardware-alert-controller-image",
+            "version": "1.0.0-53.d715435",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "cmo-hardware-alert-controller",
+            "componentName": "cmo-hardware-alert-controller",
+            "componentVersion": "1.0.0-53.d715435"
+        },
+        {
+            "artifactId": "cmo-hardware-alert-controller-charts",
+            "version": "1.0.0-53.d715435",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cmo-hardware-alert-controller/1.0.0-53.d715435/cmo-hardware-alert-controller-1.0.0-53.d715435.tgz",
+            "componentName": "cmo-hardware-alert-controller",
+            "componentVersion": "1.0.0-53.d715435"
+        },
+        {
+            "artifactId": "cmo-host-cfg-manager-image",
+            "version": "1.0.0-85.63b90ab",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "cmo-host-cfg-manager",
+            "componentName": "cmo-host-cfg-manager",
+            "componentVersion": "1.0.0-85.63b90ab"
+        },
+        {
+            "artifactId": "cmo-host-cfg-manager-charts",
+            "version": "1.0.0-85.63b90ab",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cmo-host-cfg-manager/1.0.0-85.63b90ab/cmo-host-cfg-manager-1.0.0-85.63b90ab.tgz",
+            "componentName": "cmo-host-cfg-manager",
+            "componentVersion": "1.0.0-85.63b90ab"
+        },
+        {
+            "artifactId": "cmo-provisioning-operator-image",
+            "version": "1.0.0-69.c3555b0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "cmo-provisioning-operator",
+            "componentName": "cmo-provisioning-operator",
+            "componentVersion": "1.0.0-69.c3555b0"
+        },
+        {
+            "artifactId": "cmo-provisioning-operator-charts",
+            "version": "1.0.0-69.c3555b0",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cmo-provisioning-operator/1.0.0-69.c3555b0/unifiedcontroller-1.0.0-69.c3555b0.tgz",
+            "componentName": "cmo-provisioning-operator",
+            "componentVersion": "1.0.0-69.c3555b0"
+        },
+        {
+            "artifactId": "ip-address-manager-image",
+            "version": "1.0.0-17.3498fe8",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "ip-address-manager",
+            "componentName": "ip-address-manager",
+            "componentVersion": "1.0.0-17.3498fe8"
+        },
+        {
+            "artifactId": "ip-address-manager-charts",
+            "version": "1.0.0-17.3498fe8",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/ip-address-manager/1.0.0-17.3498fe8/ip-address-manager-1.0.0-17.3498fe8.tgz",
+            "componentName": "ip-address-manager",
+            "componentVersion": "1.0.0-17.3498fe8"
+        },
+        {
+            "artifactId": "cmo-pivot-operator-image",
+            "version": "1.0.0-35.ed2c528",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "cmo-pivot-operator",
+            "componentName": "cmo-pivot-operator",
+            "componentVersion": "1.0.0-35.ed2c528"
+        },
+        {
+            "artifactId": "cmo-pivot-operator-charts",
+            "version": "1.0.0-35.ed2c528",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/cmo-pivot-operator/1.0.0-35.ed2c528/cmo-pivot-1.0.0-35.ed2c528.tgz",
+            "componentName": "cmo-pivot-operator",
+            "componentVersion": "1.0.0-35.ed2c528"
+        },
+        {
+            "artifactId": "LCM-distribution-package-1",
+            "version": "15-SP4",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/sles-os-packages/1.0.0-143.819cb0f/linux-sles-15-SP3-15-SP4.tar.gz",
+            "componentName": "lcm-distribution",
+            "componentVersion": "1.0.0-143.819cb0f"
+        },
+        {
+            "artifactId": "LCM-distribution-package-2",
+            "version": "15-SP3",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/sles-os-packages/1.0.0-143.819cb0f/linux-sles-15-SP2-15-SP3.tar.gz",
+            "componentName": "lcm-distribution",
+            "componentVersion": "1.0.0-143.819cb0f"
+        },
+        {
+            "artifactId": "dkcli-binary",
+            "version": "0.0.8-153.7e9428f",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/dkcli/0.0.8-153.7e9428f/dkcli-0.0.8-153.7e9428f-linux-amd64",
+            "componentName": "dkcli",
+            "componentVersion": "0.0.8-153.7e9428f"
+        },
+        {
+            "artifactId": "observability-subscription-operator-image",
+            "version": "1.0.0-28.1dce73c",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "observability-subscription-operator",
+            "componentName": "observability-subscription-operator",
+            "componentVersion": "1.0.0-28.1dce73c"
+        },
+        {
+            "artifactId": "observability-subscription-operator-charts",
+            "version": "1.0.0-28.1dce73c",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/observability-subscription-operator/1.0.0-28.1dce73c/observability-subscription-operator-1.0.0-28.1dce73c.tgz",
+            "componentName": "observability-subscription-operator",
+            "componentVersion": "1.0.0-28.1dce73c"
+        },
+        {
+            "artifactId": "observability-pipeline-image",
+            "version": "1.0.0-14.59bcb2f",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "observability-pipeline",
+            "componentName": "observability-pipeline",
+            "componentVersion": "1.0.0-14.59bcb2f"
+        },
+        {
+            "artifactId": "observability-pipeline-opentelemetry-operator",
+            "version": "v0.75.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator",
+            "componentName": "observability-pipeline",
+            "componentVersion": "1.0.0-14.59bcb2f"
+        },
+        {
+            "artifactId": "observability-pipeline-kube-rbac-proxy",
+            "version": "v0.14.1",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "gcr.io/kubebuilder/kube-rbac-proxy",
+            "componentName": "observability-pipeline",
+            "componentVersion": "1.0.0-14.59bcb2f"
+        },
+        {
+            "artifactId": "observability-pipeline-charts",
+            "version": "1.0.0-14.59bcb2f",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/observability-pipeline/1.0.0-14.59bcb2f/observability-pipeline-1.0.0-14.59bcb2f.tgz",
+            "componentName": "observability-pipeline",
+            "componentVersion": "1.0.0-14.59bcb2f"
+        },
+        {
+            "artifactId": "observability-source-operator-image",
+            "version": "1.0.0-14.e6130d9",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "observability-source-operator",
+            "componentName": "observability-source-operator",
+            "componentVersion": "1.0.0-14.e6130d9"
+        },
+        {
+            "artifactId": "observability-source-operator-charts",
+            "version": "1.0.0-14.e6130d9",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/observability-source-operator/1.0.0-14.e6130d9/observability-source-operator-1.0.0-14.e6130d9.tgz",
+            "componentName": "observability-source-operator",
+            "componentVersion": "1.0.0-14.e6130d9"
+        },
+        {
+            "artifactId": "observability-destination-operator-image",
+            "version": "1.0.0-14.b379145",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "observability-destination-operator",
+            "componentName": "observability-destination-operator",
+            "componentVersion": "1.0.0-14.b379145"
+        },
+        {
+            "artifactId": "observability-destination-operator-charts",
+            "version": "1.0.0-14.b379145",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/observability-destination-operator/1.0.0-14.b379145/observability-destination-operator-1.0.0-14.b379145.tgz",
+            "componentName": "observability-destination-operator",
+            "componentVersion": "1.0.0-14.b379145"
+        },
+        {
+            "artifactId": "cmo-bootstrap-cluster-bundle",
+            "version": "1.0.0-162.da5167a",
+            "type": "binary",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "path": "artifactory/atlantic-helm-build/cmo-bootstrap-cluster/1.0.0-162.da5167a/cmo-bootstrap-1.0.0-162.da5167a.tgz",
+            "componentName": "cmo-bootstrap-cluster",
+            "componentVersion": "1.0.0-162.da5167a"
+        },
+        {
+            "artifactId": "pacific-keycloak-image",
+            "version": "v1.0.114",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "keycloak",
+            "componentName": "pacific-keycloak",
+            "componentVersion": "18.0.1-9.b31b75a"
+        },
+        {
+            "artifactId": "pacific-keycloak-charts",
+            "version": "1.0.1",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-prerelease-helm-local-mw/pacific-keycloak/v1.0/keycloak-1.0.1.tgz",
+            "componentName": "pacific-keycloak",
+            "componentVersion": "18.0.1-9.b31b75a"
+        },
+        {
+            "artifactId": "postgres-db-creator-image",
+            "version": "latest",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "postgres-db-creator",
+            "componentName": "pacific-keycloak",
+            "componentVersion": "18.0.1-9.b31b75a"
+        },
+        {
+            "artifactId": "ciam-service-image",
+            "version": "bffd395",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "ciam-service-ccme",
+            "componentName": "pacific-keycloak",
+            "componentVersion": "18.0.1-9.b31b75a"
+        },
+        {
+            "artifactId": "ciam-service-charts",
+            "version": "0.1.0",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-prerelease-helm-local-mw/ciam-service/0.1.0/ciam-service-ccme.tgz",
+            "componentName": "pacific-keycloak",
+            "componentVersion": "18.0.1-9.b31b75a"
+        },
+        {
+            "artifactId": "pacific-keycloak-operator-charts",
+            "version": "1.0.27",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/pacific-keycloak/v1.0/operator/keycloak-operator-1.0.27.tgz",
+            "componentName": "pacific-keycloak",
+            "componentVersion": "18.0.1-9.b31b75a"
+        },
+        {
+            "artifactId": "atlantic-node-upgrade",
+            "version": "92-0.0.1-34.cb25fac",
+            "type": "binary",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "path": "artifactory/atlantic-build/atlantic-node-upgrade/92-0.0.1-34.cb25fac/node-upgrade-92-0.0.1-34.cb25fac.tgz",
+            "componentName": "atlantic-node-upgrade",
+            "componentVersion": "92-0.0.1-34.cb25fac"
+        },
+        {
+            "artifactId": "cmo-cluster-operator-image",
+            "version": "1.0.0-8.7e821c6",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.26.2,1.26.4",
+            "path": "cmo-cluster-operator",
+            "componentName": "cmo-cluster-operator",
+            "componentVersion": "1.0.0-8.7e821c6"
+        },
+        {
+            "artifactId": "mw-hardware-controller-image",
+            "version": "1.0.0-368.cb330e0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/mw-hardware-controller",
+            "componentName": "mw-hardware-controller",
+            "componentVersion": "1.0.0-368.cb330e0"
+        },
+        {
+            "artifactId": "mw-hardware-controller-charts",
+            "version": "1.0.0-368.cb330e0",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/mw-hardware-controller/1.0.0-368.cb330e0/mw-hardware-controller-1.0.0-368.cb330e0.tgz",
+            "componentName": "mw-hardware-controller",
+            "componentVersion": "1.0.0-368.cb330e0"
+        },
+        {
+            "artifactId": "os-sku-pack-image",
+            "version": "1.0.0-75.e0815e0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/os-sku-pack",
+            "componentName": "os-sku-pack",
+            "componentVersion": "1.0.0-75.e0815e0"
+        },
+        {
+            "artifactId": "os-sku-pack-charts",
+            "version": "1.0.0-75.e0815e0",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/os-sku-pack/1.0.0-75.e0815e0/os-sku-pack-1.0.0-75.e0815e0.tgz",
+            "componentName": "os-sku-pack",
+            "componentVersion": "1.0.0-75.e0815e0"
+        },
+        {
+            "artifactId": "nginx-image",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/nginx",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "kube-rbac-proxy",
+            "version": "v0.13.0",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/gcr.io/kubebuilder/kube-rbac-proxy",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "nginx-charts",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/nginx/1.0.0-626.8a2d5ac/nginx-1.0.0-626.8a2d5ac.tgz",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "nginx-internal-image",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/nginx-internal",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "nginx-internal-charts",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/nginx-internal/1.0.0-626.8a2d5ac/nginx-internal-1.0.0-626.8a2d5ac.tgz",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "redis-image",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/redis",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "redis-charts",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/redis/1.0.0-626.8a2d5ac/redis-1.0.0-626.8a2d5ac.tgz",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "alpine cleanup",
+            "version": "1.0.0-626.8a2d5ac",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/alpine-curl",
+            "componentName": "mw-common",
+            "componentVersion": "1.0.0-626.8a2d5ac"
+        },
+        {
+            "artifactId": "mw-server-controller-image",
+            "version": "1.0.0-1141.f5798109",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/mw-server-controller",
+            "componentName": "mw-server-controller",
+            "componentVersion": "1.0.0-1141.f5798109"
+        },
+        {
+            "artifactId": "mw-server-controller-charts",
+            "version": "1.0.0-1141.f5798109",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/mw-server-controller/1.0.0-1141.f5798109/mw-server-controller-1.0.0-1141.f5798109.tgz",
+            "componentName": "mw-server-controller",
+            "componentVersion": "1.0.0-1141.f5798109"
+        },
+        {
+            "artifactId": "redfish-sku-pack-image",
+            "version": "1.0.0-566.ac8a55e",
+            "type": "docker-image",
+            "endpoint": "asdrepo.isus.emc.com:9042",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "mw/redfish-sku-pack",
+            "componentName": "redfish-sku-pack",
+            "componentVersion": "1.0.0-566.ac8a55e"
+        },
+        {
+            "artifactId": "redfish-sku-pack-charts",
+            "version": "1.0.0-566.ac8a55e",
+            "type": "helm-chart",
+            "endpoint": "https://asdrepo.isus.emc.com",
+            "compatibleK8SVersions": "1.25.3,1.26.4",
+            "path": "/artifactory/atlantic-helm-build/redfish-sku-pack/1.0.0-566.ac8a55e/redfish-sku-pack-1.0.0-566.ac8a55e.tgz",
+            "componentName": "redfish-sku-pack",
+            "componentVersion": "1.0.0-566.ac8a55e"
+        }
+    ],
+    "customFields": {
+        "prerelease": {
+            "platformPackageUrl": "/atlantic-build/com/emc/atlantic/pre-release/1.1.2-3081-dev/platform.tgz",
+            "k8sClusterAutomationPackageUrl": "/atlantic-build/com/emc/atlantic/pre-release/1.1.2-3081-dev/k8scluster-automation.tgz",
+            "k8sDistributionPackageUrl": "/atlantic-build/com/emc/atlantic/pre-release/1.1.2-3081-dev/k8s-distribution-1.26.4.tgz"
+        }
+    }
+}
